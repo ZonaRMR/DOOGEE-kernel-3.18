@@ -1043,6 +1043,10 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(NT35695_FHD_DSI_VDO_TRULY_NT50358_720P)
 	&nt35695_fhd_dsi_vdo_truly_nt50358_720p_lcm_drv,
 #endif
+	
+#if defined(HX8379C_FWVGA_DSI_VDO_HOLITECH_PIXI4_5)
+	&hx8379c_fwvga_dsi_vdo_holitech_pixi4_5_lcm_drv,
+#endif
 };
 
 unsigned char lcm_name_list[][128] = {
